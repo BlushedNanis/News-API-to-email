@@ -21,8 +21,8 @@ message = "Subject: Today's News\n"
 for article in content["articles"]:
     message += f"""
     {article["author"]} - {str(article["publishedAt"][:10])}
-    {article["description"]}
     {article["title"]}
-    {article["url"]}"""
+    {article["description"]}
+    {article["url"]}\n"""
 
 send_email(message.encode())

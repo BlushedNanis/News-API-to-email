@@ -18,7 +18,7 @@ def send_email(email_body:str):
     """
     with SMTP_SSL("smtp.gmail.com", 
                   context=create_default_context()) as server:
-        server.login(getenv("email"), getenv("pypass"))
+        server.login(getenv("email"), getenv("pass"))
         server.sendmail(getenv("email"), getenv("reciever"), email_body)
         
 if __name__ == "__main__":

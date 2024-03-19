@@ -18,10 +18,10 @@ url = (
     )
 
 #Make a request
-request = get(url)
+response = get(url)
 
 #Obtain a dictionary from the request
-content = request.json()
+content = response.json()
 
 #Set Subject for the email
 message = "Subject: Today's News\n"

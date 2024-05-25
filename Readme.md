@@ -1,6 +1,6 @@
 # News to email - API
 
-Python script with a daily schedule in mind. The user will receive news from a specific country and topic via newsapi.org, which is gathered by the robot and sent to their Gmail account.
+Python script with a daily schedule in mind. The user will receive news from a specific country and topic via newsapi.org, which is gathered by the script and sent to their Gmail account.
 
 ### How to use?
 

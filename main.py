@@ -4,7 +4,7 @@ from os import getenv
 from dotenv import load_dotenv
 
 
-#Load envioremental variables from .env
+#Load environmental variables from .env
 load_dotenv()
 
 #Set news parameters, check newsapi.org for more information

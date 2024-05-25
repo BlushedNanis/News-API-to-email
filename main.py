@@ -9,7 +9,7 @@ load_dotenv()
 
 #Set news parameters, check newsapi.org for more information
 category = "general"
-country = "mx"
+country = "ca"
 url = (
     "https://newsapi.org/v2/top-headlines?"\
     f"category={category}&"\
